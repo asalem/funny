@@ -17,10 +17,12 @@ REQUIREMENTS
 
 INSTALLATION
 ------------
- - `Git clone (https://github.com/asalem/funny.git)`
- - `cd funny` 
- - Run `composer install`
- - Configure your web server to have the doc root point to funny/web or use the built-in PHP web server
+~~~
+Git clone https://github.com/asalem/funny.git
+cd funny
+composer install
+~~~
+Configure your web server to have the doc root point to funny/web or use the built-in PHP web server
 
 ### Using Built-in PHP web server
 running the following console command while in the project `web` directory:
@@ -45,6 +47,6 @@ By setting funny/web as the document root in Apache/Nginx Configuration
 - Destination should be a searchable dropdown menu from an api provided by Expedia
 
 
-####
-Travis : https://travis-ci.org/asalem/funny
-heroku app : https://asalem.herokuapp.com/
+#### links to check
+- Travis : https://travis-ci.org/asalem/funny
+- heroku app : https://asalem.herokuapp.com/

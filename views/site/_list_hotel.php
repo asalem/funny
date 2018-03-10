@@ -8,7 +8,7 @@ use kartik\widgets\StarRating;
          <div class="card">
              <div class="front">
                  <div class="cover">
-                     <img src="images/rotating_card_thumb<?= rand(1, 4) ?>.png" />
+                     <img src="/images/rotating_card_thumb<?= rand(1, 4) ?>.png" />
                  </div>
                  <div class="user">
                      <img class="img-circle" src="<?= $model['hotelInfo']['hotelImageUrl'] ?>"/>

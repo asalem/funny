@@ -44,3 +44,8 @@ By setting funny/web as the document root in Apache/Nginx Configuration
 #### known issues with your example ?
 - simple validation, need to have more.
 - Destination should be a searchable dropdown menu from an api provided by Expedia
+
+
+####
+Travis : https://travis-ci.org/asalem/funny
+heroku app : https://asalem.herokuapp.com/

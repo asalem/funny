@@ -17,7 +17,6 @@ REQUIREMENTS
 
 INSTALLATION
 ------------
- - Go to Web-accessible folder
  - `Git clone (https://github.com/asalem/funny.git)`
  - `cd funny` 
  - Run `composer install`

@@ -1,0 +1,19 @@
+RewriteEngine On
+
+
+ RewriteRule index.php [R=301,L]
+
+ # prevent httpd from serving dotfiles (.htaccess, .svn, .git, etc.)
+  RedirectMatch 403 /\..*$
+# if a directory or a file exists, use it directly
+RewriteCond %{REQUEST_URI} !^/css
+RewriteCond %{REQUEST_URI} !^/assets
+RewriteCond %{REQUEST_URI} !^/js
+RewriteCond %{REQUEST_URI} !^/fonts
+  RewriteCond %{REQUEST_URI} !(\.css|\.js|\.gif|\.jpg|\.png)$ [NC]
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+# otherwise forward it to index.php  
+  RewriteRule . index.php
+
+ErrorDocument 403 /index.php

@@ -1,6 +1,5 @@
 <?php
 
-
 class OffersFormCest 
 {
     public function _before(\FunctionalTester $I)

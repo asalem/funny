@@ -1,6 +1,6 @@
 <?php
 $params = require __DIR__ . '/params.php';
-$db = require __DIR__ . '/test_db.php';
+
 
 /**
  * Application configuration shared by all test types
@@ -18,7 +18,7 @@ return [
         'hiart' => [
             'class' => \hiqdev\hiart\rest\Connection::class,
             'requestClass' => \hiqdev\hiart\auto\Request::class,
-            'baseUri' => 'https://offersvc.expedia.com/offers/v2/get',
+            'baseUri' => $params['deals_endpoint'][YII_ENV],
             
         ],
         'mailer' => [

@@ -3,6 +3,7 @@
 return [
     
     'deals_endpoint' => [
+        'test' => 'https://offersvc.expedia.com/',
         'dev' => 'https://offersvc.expedia.com/',
         'stag' => 'https://offersvc.expedia.com/',
         'prod' => 'https://offersvc.expedia.com/'//Later when i get hired will update production endpoint

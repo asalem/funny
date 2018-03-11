@@ -12,6 +12,8 @@
     <br>
 </p>
 
+
+
 REQUIREMENTS
 ------------
 
@@ -56,3 +58,6 @@ By setting funny/web as the document root in Apache/Nginx Configuration
 #### links to check
 - Travis : https://travis-ci.org/asalem/funny
 - heroku app : https://asalem.herokuapp.com/
+
+####Why it's funny?
+- Cause it's public :)

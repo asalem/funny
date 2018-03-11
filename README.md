@@ -3,8 +3,6 @@
     <a href="https://travis-ci.org/asalem/funny" target="_blank">
         <img src="https://travis-ci.org/asalem/funny.svg?branch=master" >
     </a>
-    
-    <br/>
 </p>
 <p align="center">
     <a href="https://expedia.com" target="_blank">

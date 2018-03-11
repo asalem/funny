@@ -1,3 +1,11 @@
+
+<p align="left">
+    <a href="https://travis-ci.org/asalem/funny" target="_blank">
+        <img src="https://travis-ci.org/asalem/funny.svg?branch=master" >
+    </a>
+    
+    <br/>
+</p>
 <p align="center">
     <a href="https://expedia.com" target="_blank">
         <img src="https://www.expedia.com/_dms/header/logo.svg?locale=en_US&siteid=1&test=Storefront_2017_B2P_variant_1" height="100px">
